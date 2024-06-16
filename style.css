@@ -372,6 +372,10 @@ footer{
 #list{
     flex-wrap: wrap;
 }
+.responsive{
+    text-transform: lowercase;
+    font-size: 0.9rem;
+}
 /* make it responsive for tablet */
 @media(max-width:1000px) and (min-width:730px){
     nav{
