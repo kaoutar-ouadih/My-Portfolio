@@ -369,7 +369,7 @@ footer{
     right: 1px;
     top: 0;
 }
-#list{
+.list{
     flex-wrap: wrap;
 }
 .responsive{
