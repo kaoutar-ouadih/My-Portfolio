@@ -70,31 +70,14 @@ svg:hover{
     cursor: pointer;
 }
 main{
-    display: grid;
-    grid-template-columns: 1.25fr  1fr;
-    grid-template-areas: 
-        'intro profileImg';
     position: relative;
     width: 80%;
-    /* min-width: 980px; */
+    margin-bottom: 5rem;
 }
 .intro{
     grid-area: intro;
 }
-.profile{
-    grid-area: profileImg;
-    position: relative;
-    bottom: 107px;
-    z-index: 0;
-    overflow: clip;
-}
-#profileImg{
-    width: 100%;
-    display: block;
-    height: 720px;
-    object-fit: cover;
-    min-width: 500px;
-}
+
 .intro h1{
     font-size: 4.1rem;
     margin: 1.2em -1.5em 0.6em 0;
@@ -107,7 +90,7 @@ h1 span{
 .intro p, .skills p{
     font-size: 1rem;
     color: var(--Grey);
-    margin-bottom: 4em;
+    margin-bottom: 1em;
 }
 .intro p{
     max-width: 95%;
@@ -201,9 +184,6 @@ hr{
     object-fit: cover;
     background-color: red;
 }
-/* #e-com-project{
-    height: 300px;
-} */
 .card-image{
     position: relative;
  }  
@@ -385,20 +365,6 @@ footer{
         width: 90%;
         min-width: 700px;
     }
-    
-    .profile{
-            right: -50px;
-    }
-    #profileImg{
-        height: 600px;
-        object-fit: cover;
-        min-width: 350px;
-    }
-    #circle-pattern{
-        position: absolute;
-        left: 830px;
-        bottom: 105px;
-    }
     #rings-pattern{
         left: -250px;
         top: 0px;
@@ -446,11 +412,6 @@ footer{
     body{
         padding-top: 0;
     }
-    #profileImg{
-        height: 600px;
-        object-fit: cover;
-        min-width: 350px;
-    }
     nav{
         width:90%;
         flex-direction: column;
@@ -460,23 +421,13 @@ footer{
         padding-right: 0;
     }
     main{
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-            'profileImg'
-            'intro';
-        grid-auto-rows: auto;
         position: relative;
         width: 90%;
         min-width: 300px;
     }
-    .profile{
-        position: relative;
-        bottom: 120px;
-        justify-self: center;
-    }
     .intro{
         text-align: center;
-        margin-top: -6em;
+        margin-top: -1em;
     }
     .intro h1{
         margin-right: 0;
@@ -490,10 +441,6 @@ footer{
     }
     #rings-pattern{
         display: none;
-    }
-    #circle-pattern{
-        right: 90;
-        bottom: 415px;
     }
     .skills{
         width: 90%;
